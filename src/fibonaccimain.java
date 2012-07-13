@@ -1,3 +1,14 @@
+/*
+
+  This program demonstrates that, when using a recursive method to
+  find numbers in the classic Fibonacci sequence, the time taken
+  by each subsequent run of the method itself forms a Fibonacci
+  sequence.
+  
+  Author: Charles Rosaaen
+
+/*
+
 
 public class fibonaccimain {
 
