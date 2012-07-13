@@ -24,7 +24,6 @@ public class fibonaccimain {
 		for (int x = 41; x < 50; x++)
 		{
 			long pre = System.nanoTime();
-			// get the next fibonacci number
 			int y = fibo(x);
 			long post = System.nanoTime();
 			span = (post - pre) / 1000000000.0;
@@ -38,7 +37,6 @@ public class fibonaccimain {
 		
 	}
 	
-	// gets the x'th fibonacci number
 	private static int fibo (int x)
 	{
 		if (x == 0)
